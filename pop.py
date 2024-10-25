@@ -1,0 +1,12 @@
+dict={1:"hel",2:"wipro",3:"facebook",4:"amazon",5:"flipkart"}
+print("length of dictionary:",len(dict))
+x=dict.copy()
+print("copt function:",x)
+print("get:",dict.get(3))
+print("keys:",dict.keys())
+print("values:",dict.values())
+dict.update({1:"infosys"})
+print("update:",dict)
+print("pop:",dict.pop(4))
+print("popitem:",dict.popitem())
+print("clear:",dict.clear())

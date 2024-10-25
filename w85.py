@@ -1,0 +1,11 @@
+str1="Welcome to Gpt Cpt" 
+print("The original string is:", str1) 
+print("String upper case:", str1.upper()) 
+print("String lower case:", str1.lower()) 
+print("Length of the String is:", len(str1)) 
+print("Count the number of times character 'p' appeared :", str1.count('p')) 
+print("Index of the character 'e':", str1.index('e')) 
+print("Remove white spaces before and after the string:", str1.strip()) 
+print("Replace string 'Cpt' with 'Channapatna':", str1.replace('Cpt','Channapatna')) 
+print("The original string is:", str1) 
+print("Splitting the strings:", str1.split(' ')) 
